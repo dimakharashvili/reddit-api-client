@@ -1,0 +1,14 @@
+auth:
+  host: https://www.reddit.com/api/v1/access_token
+  requestPeriod: 180
+client:
+  host: https://oauth.reddit.com
+  userAgent: dmmakRedditApi/1.0
+  newPostsUrl: /new
+  savePostUrl: /api/save
+  requestPeriod: 180
+  subreddits:
+    - name: golang
+      keywords: slice, map, update, news
+    - name: wallstreetbets
+      keywords: stock, share, bond
